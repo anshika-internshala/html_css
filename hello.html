@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+
+    <form action="">
+
+        <label for="fname">FirstName:</label>
+        <input type="text" id="fname" name="firstName" placeholder="Enter your name" disabled> <br><br>
+        <label for="lname">LastName:</label>
+        <input type="text" id="lname" name="lastName"> <br> <br>
+        <input type="radio" id="html" value="HTML" name="language">
+        <label for="html">HTML</label>
+        <input type="radio" id="css" value="CSS" name="language">
+        <label for="css">CSS</label>
+        <br>
+        <br>
+
+        <input type="datetime-local">
+        <br>
+        <br>
+        <input type="checkbox" id="red" value="RED" name="color1">
+        <label for="red">RED</label>
+        <input type="checkbox" id="blue" value="blue" name="color2">
+        <label for="blue">BLUE</label>
+        <input type="checkbox" id="green" value="green" name="color3">
+        <label for="green">GREEN</label>
+        <input type="checkbox" id="yellow" value="yellow" name="color4">
+        <label for="yellow">YELLOW</label>
+
+        <br>
+        <br>
+
+
+        <fieldset>
+            <legend>User Authentication</legend>
+            <label for="email">Enter Email</label>
+            <input type="email" id="email" name="Email" required> <br> <br>
+            <label for="password">Enter password</label>
+            <input type="password" id="password" name="password"> <br> <br>
+        </fieldset>
+        <label for="degree">Select a degree:</label>
+        <select id="degree" name="degree" multiple size="4">
+            <option value="Mtech">Mtech</option>
+            <option value="Btech" selected>Btech</option>
+            <option value="BBA">BBA</option>
+            <option value="MBA">MBA</option>
+        </select>
+
+        <br>
+        <br>
+
+        <textarea name="feedback" rows="15" cols="25"></textarea>
+
+        <input type="submit">
+
+        <button type="button" onclick="alert('button is clicked')">ClickMe</button>
+
+    </form>
+
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+
+
+    
+</body>
+</html>

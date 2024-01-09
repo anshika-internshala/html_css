@@ -1,0 +1,46 @@
+*{
+   box-sizing: border-box; 
+}
+
+h1 {
+    background-color: red;
+}
+
+#header {
+    background-color: #7daa69;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+}
+
+.container {
+    width: 400px;
+    height: 300px;
+    border: 1px solid green;
+    padding: 10px;
+    margin: 20px;
+    /* border-style: solid; */
+    /* border-color: brown; */
+}
+
+.container1 {
+    width: 400px;
+    height: 300px;
+    border: 1px solid green;
+    padding: 40px;
+    margin: 10px;
+}
+
+/* content-width = 400 - 80 - 2 = 318px */
+
+.inline {
+    background-color: aqua;
+}
+
+/* CSS Positioning
+
+    Static --- Default
+    Relative ---- relative to parent
+    Absolute
+    Fixed
+    Sticky
+ */
