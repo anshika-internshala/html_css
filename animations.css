@@ -1,0 +1,42 @@
+@keyframes example {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 1200px;
+        top: 0px;
+    }
+    50% {
+        left: 1200px;
+        top: 650px;
+    }
+    75% {
+
+        left: 0px;
+        top: 650px;
+
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.box {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+    border: 1px solid black;
+    /* animation-name: example;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-direction:normal;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: both; */
+
+    animation: example 5s linear 2s 1 normal both;
+}
+

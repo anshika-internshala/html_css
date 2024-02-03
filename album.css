@@ -39,15 +39,13 @@ li:hover {
 
 .thumbnails {
     background-color: lightgray;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     padding: 50px;
 }
 
 .card {
-    width: 25%;
-    margin: 20px;
     border: 1px solid black;
 }
 
